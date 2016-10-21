@@ -13,6 +13,20 @@ def get_license_ids():
     objs = graph.subject_objects(ref)
     return map(lambda x: x[1].value, objs)
 
+def lit_to_str(lit):
+    s = lit.nodeValue.encode('utf-8') if lit.nodeValue else ''
+    return s + xml_to_str(lit)
+
+def xml_to_str(parent):
+    return ''.join(lit_to_str(x) for x in parent.childNodes)
+
+def license_text_to_str(literal):
+    if isinstance(literal.value, unicode):
+        return literal.value.encode('utf-8')
+
+    # Assume the literal contains a list of <p> elements under a top level node.
+    return xml_to_str(literal.value.firstChild) + '\n'
+
 def get_license_text(licenseId):
     graph = rdflib.Graph()
 
@@ -23,7 +37,7 @@ def get_license_text(licenseId):
 
     ref = rdflib.URIRef("http://spdx.org/rdf/terms#licenseText")
     objs = graph.subject_objects(ref)
-    return objs.next()[1].value.encode('utf-8')
+    return license_text_to_str(objs.next()[1])
 
 def write_licenses_dir(ids):
     licenseDir = 'codebom/licenses'
