@@ -1,0 +1,12 @@
+# Expect `codebom graph` to make all parent nodes and edges of the
+# license conflict red.
+name: foo
+license: AllRightsReserved
+copyright-holders: [Acme]
+dependencies:
+  - name: bar
+    license: AllRightsReserved
+    copyright-holders: [Acme]
+    dependencies:
+      - name: ghostscript
+        license: GPL-3.0

@@ -1,0 +1,8 @@
+.cache
+.coverage
+.git
+.tox
+*.pyc
+coverage.xml
+codebom.egg-info
+codebom/__pycache__

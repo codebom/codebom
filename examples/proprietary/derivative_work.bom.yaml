@@ -1,0 +1,5 @@
+# Expect `codebom graph` to raise a flag on the potential for a derivative work
+license: AllRightsReserved
+copyright-holders: [Acme]
+dependencies:
+  - license: GPL-3.0

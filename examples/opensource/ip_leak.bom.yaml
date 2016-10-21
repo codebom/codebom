@@ -1,0 +1,5 @@
+# Expect `codebom graph` to raise a flag on the license conflict
+license: GPL-3.0
+dependencies:
+  - license: AllRightsReserved
+    copyright-holders: [Acme]

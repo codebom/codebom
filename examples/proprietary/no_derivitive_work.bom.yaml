@@ -1,0 +1,5 @@
+# Proprietary development dependency does not raise a flag.
+license: AllRightsReserved
+copyright-holders: [Acme]
+development-dependencies:
+  - license: GPL-3.0

@@ -1,0 +1,16 @@
+digraph G {
+  source -> tarball [label="pull packages"];
+  tarball -> bom [label="configure"];
+  bom -> verified [label="verify", color="blue"];
+  verified -> diagram [label="graph", color="blue"]
+  verified -> bom [label="scan", color="blue"];
+  bom -> end [label="build"];
+  diagram -> end [label="legal approval"];
+
+  tarball [label="packaged source"]
+  bom [label="BOM"]
+  verified [label="verified BOM"]
+  diagram [label="license diagram"]
+  source [shape=Mdiamond];
+  end [shape=Msquare];
+}

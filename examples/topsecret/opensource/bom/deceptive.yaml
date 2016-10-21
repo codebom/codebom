@@ -1,0 +1,4 @@
+root: ../deceptive
+license: BSD-3-Clause
+dependencies:
+  - ../bom/scary.yaml

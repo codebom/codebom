@@ -1,0 +1,14 @@
+name: top-secret
+license: AllRightsReserved
+copyright-holders: [Acme]
+dependencies:
+  - root: alice
+    license: AllRightsReserved
+    copyright-holders: [Acme]
+  - root: bob
+    license: AllRightsReserved
+    copyright-holders: [Acme]
+  - thirdparty/bom/neatstuff.yaml
+  - opensource/bom/lua.yaml
+development-dependencies:
+  - opensource/bom/deceptive.yaml

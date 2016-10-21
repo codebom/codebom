@@ -1,0 +1,7 @@
+.cache/
+.tox/
+.coverage
+coverage.xml
+codebom.egg-info/
+codebom/_version.py
+*.pyc

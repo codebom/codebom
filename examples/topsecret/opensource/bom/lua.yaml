@@ -1,0 +1,4 @@
+root: ../lua-5.3.1
+license: MIT
+license-file: doc/readme.html
+copyright-holders: [Lua.org, PUC-Rio]

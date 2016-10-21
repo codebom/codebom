@@ -1,0 +1,8 @@
+# Expect `codebom graph` to make all parent nodes and edges of the
+# license conflict red.
+license: GPL-3.0
+dependencies:
+  - license: GPL-3.0
+    dependencies:
+      - license: AllRightsReserved
+        copyright-holders: [Acme]

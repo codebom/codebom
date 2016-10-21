@@ -1,0 +1,2 @@
+I'm licensing the source files I wrote under BSD, but those files have a
+runtime dependency on libHalloween, which is licensed under GPLv3.

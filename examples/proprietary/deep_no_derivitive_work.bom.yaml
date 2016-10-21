@@ -1,0 +1,8 @@
+# GPLv3 development dependency does not raise a flag unless doing a source-distribution
+license: AllRightsReserved
+copyright-holders: [Acme]
+development-dependencies:
+  - license: AllRightsReserved
+    copyright-holders: [Acme]
+    dependencies:
+      - license: GPL-3.0
