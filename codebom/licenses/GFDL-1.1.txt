@@ -1,5 +1,5 @@
 
-GNU Free Documentation License 
+      GNU Free Documentation License 
 
 Version 1.1, March 2000
 Copyright (C) 2000 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA 
@@ -131,3 +131,4 @@ To use this License in a document you have written, include a copy of the Licens
 If you have no Invariant Sections, write "with no Invariant Sections" instead of saying which ones are invariant. If you have no Front-Cover Texts, write "no Front-Cover Texts" instead of "Front-Cover Texts being LIST"; likewise for Back-Cover Texts.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
+      

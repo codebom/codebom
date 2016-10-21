@@ -1,5 +1,5 @@
 
-The LaTeX Project Public License 
+      The LaTeX Project Public License 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 LPPL Version 1.3c 2008-05-04
@@ -211,3 +211,4 @@ The LPPL requires that distributions of the Work contain all the files of the Wo
      % This work consists of all files listed in manifest.txt. 
 
 in that place. In the absence of an unequivocal list it might be impossible for the licensee to determine what is considered by you to comprise the Work and, in such a case, the licensee would be entitled to make reasonable conjectures as to which files comprise the Work. 
+      

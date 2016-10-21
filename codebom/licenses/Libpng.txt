@@ -1,5 +1,5 @@
 
-This copy of the libpng notices is provided for your convenience.  In case of any discrepancy between this copy and the notices in the file png.h that is included in the libpng distribution, the latter shall prevail.
+      This copy of the libpng notices is provided for your convenience.  In case of any discrepancy between this copy and the notices in the file png.h that is included in the libpng distribution, the latter shall prevail.
 COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
 
 If you modify libpng you may insert additional notices immediately following this sentence. 
@@ -95,3 +95,4 @@ Glenn Randers-Pehrson
 glennrp at users.sourceforge.net
 
 December 9, 2010
+      

@@ -1,5 +1,5 @@
 
-Ricoh Source Code Public License
+      Ricoh Source Code Public License
 
 Version 1.0
 1. Definitions.
@@ -135,3 +135,4 @@ Software distributed under the License is distributed on an "AS IS" basis, WITHO
 This code was initially developed by Ricoh Silicon Valley, Inc. Portions created by Ricoh Silicon Valley, Inc. are Copyright (C) 1995-1999. All Rights Reserved.
 
 Contributor(s): ______________________________________."
+      

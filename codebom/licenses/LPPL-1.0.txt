@@ -1,5 +1,5 @@
 
-LaTeX Project Public License 
+      LaTeX Project Public License 
 LPPL Version 1.0 1999-03-01
 
 Copyright 1999 LaTeX3 Project 
@@ -113,3 +113,4 @@ Typical examples of files with more restrictive modification conditions would be
      * The conditions on individual files differ only in the extent of *modification* that is allowed.
 
      * The conditions on *distribution* are the same for all the files. Thus a (re)distributor of a complete, unchanged copy of The Program need meet only the conditions in this file; it is not necessary to check the header of every file in the distribution to check that a distribution meets these requirements.
+      

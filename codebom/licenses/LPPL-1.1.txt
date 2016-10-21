@@ -1,5 +1,5 @@
 
-The LaTeX Project Public License 
+      The LaTeX Project Public License 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 LPPL Version 1.1 1999-07-10
@@ -161,3 +161,4 @@ Noting Exceptional Files
 If The Program contains any files bearing additional conditions on modification, or on distribution of modified versions, of those files (other than those listed in `Additional Conditions on LaTeX Software Files'), then it is recommended that The Program contain a prominent file that defines the exceptional conditions, and either lists the exceptional files or defines one or more categories of exceptional files.
 
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.
+      

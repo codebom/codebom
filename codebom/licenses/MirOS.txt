@@ -1,5 +1,5 @@
 
-MirOS License
+      MirOS License
 Copyright [YEAR] 
 
 [NAME] [EMAIL] 
@@ -39,3 +39,4 @@ R_E_F_E_R_E_N_C_E_S_:_
 (9) http://www.opendefinition.org/licenses 
 
 (10) http://opensource.org/licenses/miros.html
+      

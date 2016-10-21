@@ -1,5 +1,5 @@
 
-IBM Public License Version 1.0
+      IBM Public License Version 1.0
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS IBM
 
 PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION
@@ -371,3 +371,4 @@ party to this Agreement will bring a legal action under this
 Agreement more than one year after the cause of action arose. Each
 
 party waives its rights to a jury trial in any resulting litigation.
+      

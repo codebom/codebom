@@ -1,5 +1,5 @@
 
-The Net Boolean Public License
+      The Net Boolean Public License
 Version 1, 22 August 1998 Copyright 1998, Net Boolean Incorporated, Redwood City, California, USA All Rights Reserved.
 
 Note: This license is derived from the "Artistic License" as distributed with the Perl Programming Language. Its terms are different from those of the "Artistic License." 
@@ -57,3 +57,4 @@ Definitions:
 9. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 The End 
+      

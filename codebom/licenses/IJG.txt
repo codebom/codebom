@@ -1,5 +1,5 @@
 
-Independent JPEG Group License 
+      Independent JPEG Group License 
 LEGAL ISSUES 
 
 In plain English:
@@ -41,3 +41,4 @@ The IJG distribution formerly included code to read and write GIF files. To avoi
 We are required to state that 
 
      "The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated. GIF(sm) is a Service Mark property of CompuServe Incorporated." 
+      

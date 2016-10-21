@@ -1,5 +1,5 @@
 
-Unicode Terms of Use 
+      Unicode Terms of Use 
 For the general privacy policy governing access to this site, see the Unicode Privacy Policy. For trademark usage, see the Unicode® Consortium Name and Trademark Usage Policy.
 
 A. Unicode Copyright. 
@@ -49,3 +49,4 @@ F. Miscellaneous.
      4. Severability. If any provision of this Agreement is declared invalid or unenforceable, the remaining provisions of this Agreement shall remain in effect. 
 
      5. Entire Agreement. This Agreement constitutes the entire agreement between the parties. 
+      

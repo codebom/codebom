@@ -1,5 +1,5 @@
 
-Copyright (C) 1995-2009 Gerd Neugebauer
+      Copyright (C) 1995-2009 Gerd Neugebauer
 
   
 
@@ -8,3 +8,4 @@ cwpuzzle.dtx is distributed in the hope that it will be useful, but WITHOUT ANY 
   .
 
 Everyone is granted permission to copy, modify and redistribute cwpuzzle.dtx, provided this copyright notice is preserved and any modifications are indicated.
+      

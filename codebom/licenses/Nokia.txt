@@ -1,5 +1,5 @@
 
-Nokia Open Source License (NOKOS License) 
+      Nokia Open Source License (NOKOS License) 
 Version 1.0a 
 
 1. DEFINITIONS.
@@ -173,3 +173,4 @@ ______________________________________.
 Copyright © <year> Nokia and others. All Rights Reserved.
 
 Contributor(s): ______________________________________.
+      

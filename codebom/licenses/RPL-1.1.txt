@@ -1,5 +1,5 @@
 
-Reciprocal Public License, version 1.1
+      Reciprocal Public License, version 1.1
 Copyright (C) 2001-2002 Technical Pursuit Inc., All Rights Reserved.
 
 PREAMBLE
@@ -177,3 +177,4 @@ Unless explicitly acquired and licensed from Licensor under the Technical Pursui
 You may obtain a copy of both the TPL and the RPL (the "Licenses") from Technical Pursuit Inc. at http://www.technicalpursuit.com.
 
 All software distributed under the Licenses is provided strictly on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND TECHNICAL PURSUIT INC. HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, OR NON-INFRINGEMENT. See the Licenses for specific language governing rights and limitations under the Licenses.
+      

@@ -1,5 +1,5 @@
 
-NTP License (NTP)
+      NTP License (NTP)
 Copyright (c) 
 (CopyrightHoldersName) (From 4-digit-year)-(To 4-digit-year)
 
@@ -9,3 +9,4 @@ Permission to use, copy, modify, and distribute this software and its documentat
  not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. 
 (TrademarkedName)
  makes no representations about the suitability this software for any purpose. It is provided "as is" without express or implied warranty.
+      

@@ -1,5 +1,5 @@
 
-3DFX GLIDE Source Code General Public License 
+      3DFX GLIDE Source Code General Public License 
 1. PREAMBLE
 
 This license is for software that provides a 3D graphics application program interface (API).The license is intended to offer terms similar to some standard General Public Licenses designed to foster open standards and unrestricted accessibility to source code. Some of these licenses require that, as a condition of the license of the software, any derivative works (that is, new software which is a work containing the original program or a portion of it) must be available for general use, without restriction other than for a minor transfer fee, and that the source code for such derivative works must likewise be made available. The only restriction is that such derivative works must be subject to the same General Public License terms as the original work. 
@@ -93,3 +93,4 @@ This 3dfx GLIDE Source Code General Public License differs from the standard lic
      5.1 TO THE EXTENT PERMITTED BY APPLICABLE LAW, THERE IS NO WARRANTY FOR THE PROGRAM. OR DERIVATIVE WORKS THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM AND ANY DERIVATIVE WORKS"AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM AND ANY DERIVATIVE WORK IS WITH YOU. SHOULD THE PROGRAM OR ANY DERIVATIVE WORK PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
      5.2 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL 3DFX INTERACTIVE, INC., OR ANY OTHER COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM OR DERIVATIVE WORKS AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM OR DERIVATIVE WORKS (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM OR DERIVATIVE WORKS TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+      

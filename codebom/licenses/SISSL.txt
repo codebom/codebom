@@ -1,5 +1,5 @@
 
-Sun Industry Standards Source License - Version 1.1
+      Sun Industry Standards Source License - Version 1.1
 1.0 DEFINITIONS
 
      1.1 "Commercial Use" means distribution or otherwise making the Original Code available to a third party.
@@ -121,3 +121,4 @@ The Standard is defined as the following:
 OpenOffice.org XML File Format Specification, located at http://xml.openoffice.org
 
 OpenOffice.org Application Programming Interface Specification, located at  http://api.openoffice.org
+      

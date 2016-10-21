@@ -1,5 +1,5 @@
 
-Lucent Public License Version 1.0
+      Lucent Public License Version 1.0
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
 1. DEFINITIONS
@@ -101,3 +101,4 @@ All Recipient's rights under this Agreement shall terminate if it fails to compl
 This Agreement is governed by the laws of the State of 
 <STATE>
  and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+      

@@ -1,5 +1,5 @@
 
-THE FRAMEWORX OPEN LICENSE 1.0
+      THE FRAMEWORX OPEN LICENSE 1.0
 This License Agreement, The Frameworx Open License 1.0, has been entered into between The Frameworx Company and you, the licensee hereunder, effective as of Your acceptance of the Frameworx Code Base or an Downstream Distribution (each as defined below).
 
 AGREEMENT BACKGROUND
@@ -69,3 +69,4 @@ The Frameworx Company hereby grants to you all rights to sub-license your rights
 Your agreement to the foregoing as of the date hereof has been evidenced by your acceptance of the relevant software distribution hereunder.
 
 (C) THE FRAMEWORX COMPANY 2003
+      

@@ -1,5 +1,5 @@
 
-Deutsche Freie Software Lizenz
+      Deutsche Freie Software Lizenz
 (c) Ministerium für Wissenschaft und Forschung Nordrhein-Westfalen 2004
 
 Erstellt von Axel Metzger und Till Jaeger, Institut für Rechtsfragen der Freien und Open Source Software - (http://www.ifross.de).
@@ -163,3 +163,4 @@ Um jedermann den Abschluss dieser Lizenz zu ermöglichen, wird empfohlen, das Pr
 Dieses Programm kann durch jedermann gemäß den Bestimmungen der Deutschen Freien Software Lizenz genutzt werden.
 
 Die Lizenz kann unter http://www.d-fsl.de abgerufen werden."
+      

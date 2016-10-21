@@ -1,5 +1,5 @@
 
- FREE SOFTWARE LICENSING AGREEMENT CeCILL 
+       FREE SOFTWARE LICENSING AGREEMENT CeCILL 
 Notice
 
 This Agreement is a free software license that is the result of discussions between its authors in order to ensure compliance with the two main principles guiding its drafting: 
@@ -237,3 +237,4 @@ Article 13 - GOVERNING LAW AND JURISDICTION
 13.2. In the absence of an out-of-court settlement within two (2) months as from their occurrence, and unless emergency proceedings are necessary, the disagreements or disputes shall be referred to the Paris Courts having jurisdiction, by the first Party to take action. 
 
  Version 1.1 of 10/26/2004 
+      

@@ -1,5 +1,5 @@
 
-Copyright Status
+      Copyright Status
 SAX is free!
 
 In fact, it's not possible to own a license to SAX, since it's been placed in the public domain.
@@ -31,3 +31,4 @@ I hereby abandon any property rights to SAX 2.0 (the Simple API for XML), and re
 David Megginson, Megginson Technologies Ltd.
 
 2000-05-05
+      

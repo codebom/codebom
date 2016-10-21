@@ -1,5 +1,5 @@
 
-INTERBASE PUBLIC LICENSE
+      INTERBASE PUBLIC LICENSE
 
 Version 1.0
 1. Definitions.
@@ -205,3 +205,4 @@ II.1. Advertising Materials. All advertising materials mentioning features or us
 II.2. Endorsements. The names "InterBase," "ISC," and "IB" must not be used to endorse or promote Contributor Versions or Larger Works without the prior written permission of Interbase.
 
 II.3. Product Names. Contributor Versions and Larger Works may not be called "InterBase" or "Interbase" nor may the word "InterBase" appear in their names without the prior written permission of Interbase.
+      

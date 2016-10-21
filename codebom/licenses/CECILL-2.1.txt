@@ -1,5 +1,5 @@
 
-CONTRAT DE LICENCE DE LOGICIEL LIBRE CeCILL
+      CONTRAT DE LICENCE DE LOGICIEL LIBRE CeCILL
 Version 2.1 du 2013-06-21 
 
 Avertissement
@@ -249,3 +249,4 @@ Le Contrat est rédigé en langue française et en langue anglaise, ces deux ver
 13.1 Le Contrat est régi par la loi française. Les Parties conviennent de tenter de régler à l'amiable les différends ou litiges qui viendraient à se produire par suite ou à l'occasion du Contrat.
 
 13.2 A défaut d'accord amiable dans un délai de deux (2) mois à compter de leur survenance et sauf situation relevant d'une procédure d'urgence, les différends ou litiges seront portés par la Partie la plus diligente devant les Tribunaux compétents de Paris. 
+      
