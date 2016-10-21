@@ -56,14 +56,14 @@ Ubuntu
 ---
 
 ```bash
-sudo apt-get install graphviz
+$ sudo apt-get install graphviz
 ```
 
 OS X
 ---
 
 ```bash
-brew install graphviz
+$ brew install graphviz
 ```
 
 
