@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/codebom/codebom.svg?branch=master)](https://travis-ci.org/codebom/codebom)
+[![codecov.io](http://codecov.io/github/codebom/codebom/coverage.svg?branch=master)](http://codecov.io/github/codebom/codebom?branch=master)
 
 CodeBOM
 ===
