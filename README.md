@@ -21,7 +21,7 @@ different ways. A legal team may use them to ensure licensing terms are in
 compliance before distribution. A security team, on the other hand, may use
 code origin declarations to detect known security vulnerabilities.
 
-![bombuilding101]()
+![bombuilding101](doc/bombuilding101.png?raw=true)
 
 CodeBOM includes a set of subcommands, `scan`, `verify` and `graph`. How you
 use the subcommands will depend on what source code management tools you use.
@@ -327,7 +327,7 @@ in the context of a binary distribution.
 $ codebom -f examples/topsecret/.bom.yaml graph -o topsecret-bindist.png
 ```
 
-![topsecret-bindist]()
+![topsecret-bindist](doc/topsecret-bindist.png?raw=true)
 
 Running the same command again but with the `--source-distribution` flag, we
 can see how license terms can reach up to potentially derivative works.
@@ -336,7 +336,7 @@ can see how license terms can reach up to potentially derivative works.
 $ codebom -f examples/topsecret/.bom.yaml graph --source-distribution -o topsecret-srcdist.png
 ```
 
-![topsecret-srcdist]()
+![topsecret-srcdist](doc/topsecret-srcdist.png?raw=true)
 
 
 
