@@ -7,7 +7,7 @@ version_py = os.path.join(os.path.dirname(__file__), 'codebom', '_version.py')
 
 if not os.path.exists(version_py):
     with open(version_py, 'w') as hdl:
-        version = subprocess.check_output(['git', 'describe', '--tags']).strip()
+        version = str(subprocess.check_output(['git', 'describe', '--tags'])).strip()
         hdl.write('__version__ = ' + repr(version))
 
 exec(open(version_py).read())
