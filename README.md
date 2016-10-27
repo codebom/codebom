@@ -1,3 +1,5 @@
+[![Join the chat at https://gitter.im/codebom/codebom](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codebom/codebom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/codebom/codebom.svg?branch=master)](https://travis-ci.org/codebom/codebom)
 [![codecov.io](http://codecov.io/github/codebom/codebom/coverage.svg?branch=master)](http://codecov.io/github/codebom/codebom?branch=master)
 
