@@ -78,9 +78,10 @@ usage: codebom [-h] [--version] [-f FILE] {scan,verify,graph} ...
 Validate a Bill of Materials
 
 positional arguments:
-  {scan,verify,graph}
-    scan                Scan for missing declarations
-    verify              Verify declarations are consistent
+  {scan,verify,analyze,graph}
+    scan                Scan the codebase for missing declarations
+    verify              Verify declarations are consistent with the codebase
+    analyze             Analyze potential implications of the declarations
     graph               Graph license dependencies
 
 optional arguments:
@@ -305,6 +306,24 @@ optional arguments:
   --source-distribution
   -o FILE
   --check-origins {uri,contents}
+```
+
+codebom analyze
+---
+
+The `analyze` command attempts to report the implications of the BOM's
+declarations. For instance, if a project depends on another with a
+more restrictive license and no licensees are declared, it will
+output a message telling you there may be license conflict. The
+`analyze` command is the textual counterpart to the `graph` command.
+
+```
+usage: codebom analyze [-h] [--source-distribution] [-o FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --source-distribution
+  -o FILE
 ```
 
 codebom graph

@@ -6,6 +6,7 @@ from codebom.bom import BomError
 from codebom.lint import load_linted_bom
 from codebom.verify import verify_bom
 from codebom.scan import scan_bom
+from codebom.analyze import analyze_bom
 from codebom.graph import graph_bom
 from ruamel import yaml
 import os.path
@@ -63,6 +64,13 @@ if __name__ == '__main__':
             if args.add:
                 args.o.write(yaml.dump(data, Dumper=yaml.RoundTripDumper))
                 args.o.close()
+        elif args.command == 'analyze':
+            is_source_dist = args.source_distribution
+            messages = analyze_bom(bom, is_source_dist=is_source_dist)
+            if messages:
+                args.o.write('\n'.join(messages))
+                args.o.write('\n')
+            args.o.close()
         elif args.command == 'graph':
             is_source_dist = args.source_distribution
             dot = graph_bom(bom, is_source_dist=is_source_dist)
