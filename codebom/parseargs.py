@@ -35,6 +35,10 @@ def parse_args(argv):
     verify_parser.add_argument('-o', metavar='FILE', default=sys.stdout, type=argparse.FileType('w'))
     verify_parser.add_argument('--check-origins', choices=['uri', 'contents'])
 
+    analyze_parser = subparsers.add_parser('analyze', help='Analyze license dependencies')
+    analyze_parser.add_argument('--source-distribution', action='store_true')
+    analyze_parser.add_argument('-o', metavar='FILE', default=sys.stdout, type=argparse.FileType('wb'))
+
     graph_parser = subparsers.add_parser('graph', help='Graph license dependencies')
     graph_parser.add_argument('--source-distribution', action='store_true')
     graph_parser.add_argument('-o', metavar='FILE', default=sys.stdout, type=argparse.FileType('wb'))

@@ -2,7 +2,6 @@ from urllib.parse import urlparse
 from urllib.request import urlretrieve
 from urllib.request import urlopen
 from .bom import BomError, get_item_position, get_file_position
-from .licenseconflict import is_dependent_license_compatible
 from .licenseidentifier import identify_license
 from .licenses import license_ids
 from ruamel.yaml.comments import CommentedMap
@@ -41,20 +40,6 @@ def collect_license_warnings(bom, is_source_dist, all_license_ids=license_ids):
         if warning:
             warnings.append(warning)
 
-    known_conflicts = bom.potential_license_conflicts
-    deps = is_source_dist and bom.all_dependencies or bom.dependencies
-    for dep in deps:
-        dep_license_id = dep.license or 'Unknown'
-        if not is_dependent_license_compatible(bom, dep):
-            if dep.data.get('root') in known_conflicts:
-                continue
-
-            license_conflict_templ = "The license '{}' may be incompatible with the license '{}' in '{}'."
-            msg = license_conflict_templ.format(license_id, dep_license_id, dep.root_dir)
-            msg += " Specify 'copyright-holders' and/or 'licensees' to state the license is authorized in this context."
-            if not is_source_dist:
-                msg += " If this dependency is used only for development, move it to the 'development-dependencies' section."
-            warnings.append(msg)
     return warnings
 
 def warn(msg, pos):
