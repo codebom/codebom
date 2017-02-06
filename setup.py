@@ -24,7 +24,6 @@ setup(
     scripts=['bin/codebom'],
     install_requires=[
       'ruamel.yaml==0.13.13',
-      'enum34==1.1.6',
       'graphviz==0.5.2',
     ]
 )

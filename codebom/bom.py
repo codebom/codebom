@@ -1,11 +1,7 @@
 from ruamel import yaml
 from ruamel.yaml.comments import CommentedMap
 import os.path
-
-try:
-    from urlparse import urlparse
-except ImportError:
-    from urllib.parse import urlparse
+from urllib.parse import urlparse
 
 class SourcePosition(object):
     def __init__(self, line, col, src=None):

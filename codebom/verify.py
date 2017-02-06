@@ -1,18 +1,6 @@
-try:
-    from urlparse import urlparse
-except ImportError:
-    from urllib.parse import urlparse
-
-try:
-    from urllib import urlretrieve
-except ImportError:
-    from urllib.request import urlretrieve
-
-try:
-    from urllib2 import urlopen
-except ImportError:
-    from urllib.request import urlopen
-
+from urllib.parse import urlparse
+from urllib.request import urlretrieve
+from urllib.request import urlopen
 from .bom import BomError, get_item_position, get_file_position
 from .licenseconflict import is_dependent_license_compatible
 from .licenseidentifier import identify_license
