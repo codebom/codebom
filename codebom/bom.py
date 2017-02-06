@@ -76,10 +76,6 @@ class Bom(object):
         return self.data.get('license')
 
     @property
-    def potential_license_conflicts(self):
-        return self.data.get('potential-license-conflicts', [])
-
-    @property
     def root_matches_origin(self):
         return self.data.get('root-matches-origin')
 

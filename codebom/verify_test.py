@@ -154,12 +154,6 @@ def test_verify_bom_license_conflict(capsys):
     assert out.msg.startswith('License file')
 
 def test_verify_bom_output():
-    data = {'licensees': ['Q'], 'potential-license-conflicts': ['foo']}
-    assert verify.verify_bom(Bom(data, '.'), '.') == data
-
-    data = {'licensees': [], 'potential-license-conflicts': []}
-    assert verify.verify_bom(Bom(data, '.'), '.') == {}
-
     data = {'name': 'foo'}
     assert verify.verify_bom(Bom(data, '.'), '.') == data
 
