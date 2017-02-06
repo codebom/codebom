@@ -44,10 +44,10 @@ then you can use `codebom scan` to help you detect missing declarations and
 Installation
 ===
 
-Use Python's `pip` to install the latest release of CodeBOM from PyPI:
+Use Python's `pip3` to install the latest release of CodeBOM from PyPI:
 
 ```bash
-$ pip install --user codebom
+$ pip3 install codebom
 ```
 
 To use the `codebom graph` command, install 'graphviz' and afterward, ensure `dot`

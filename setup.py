@@ -15,6 +15,7 @@ exec(open(version_py).read())
 
 setup(
     name="codebom",
+    description='Command-line tool to create, validate and analyze a Bill of Materials',
     author='Greg Fitzgerald',
     author_email='garious@gmail.com',
     url='https://github.com/codebom/codebom',
