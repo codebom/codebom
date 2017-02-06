@@ -43,15 +43,6 @@ def test_collect_license_warnings():
     }
     assert license_warnings(data) == []
 
-    # Don't warn on known conflicts.
-    data = {
-        'license': 'AllRightsReserved',
-        'copyright-holders': ['Q'],
-        'potential-license-conflicts': ['foss'],
-        'dependencies': [{'root': 'foss', 'license': 'GPL-3.0'}]
-    }
-    assert license_warnings(data) == []
-
 def test_analyze_bom():
     data = {
         'license': 'AllRightsReserved',

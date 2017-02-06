@@ -136,7 +136,7 @@ def _verify_field(field_name, bom, parent_base_dir, verified_data, **kwargs):
         verified_data[field_name] = val
     elif field_name == 'license' and val != None:
         verified_data[field_name] = val
-    elif val and field_name in ['files', 'licensees', 'copyright-holders', 'potential-license-conflicts']:
+    elif val and field_name in ['files', 'licensees', 'copyright-holders']:
         verified_data[field_name] = val
     elif field_name == 'origin':
         check_origins = kwargs.get('check_origins')

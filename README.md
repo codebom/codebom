@@ -377,7 +377,6 @@ declaration   : origin
               | root-matches-origin
               | license
               | license-file
-              | potential-license-conflicts
               | root
               | files
               | name
@@ -445,19 +444,6 @@ The path to the license file relative to the `root` declaration.
 
 * type: `filepath | null`
 * default: `null`
-
-
-potential-license-conflicts
----
-
-When there is concern a dependency's license may introduce licensing conflicts, add its
-root directory to the `potential-license-conflicts` declaration. Doing so tells
-CodeBOM's `verify` command not to produce an error when it detects the same potential
-for conflicts. If the conflict is not in a development dependency (or `--source-distribution`
-is added), the `graph` command will highlight potential conflicts in red.
-
-* type: `[filepath]`
-* default: `[]`
 
 
 root
