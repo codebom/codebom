@@ -1,8 +1,4 @@
-try:
-    from urlparse import urlparse
-except ImportError:
-    from urllib.parse import urlparse
-
+from urllib.parse import urlparse
 import os.path
 from .bom import load_bom, get_file_position, get_value_position, get_key_position, get_item_position, BomError
 from .licenses import license_ids
