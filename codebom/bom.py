@@ -186,7 +186,7 @@ def load_bom(hdl, path):
     try:
         data = load_yaml(hdl, path) or annotate_with_source(CommentedMap(), path)
         return Bom(data, os.path.dirname(path))
-    except yaml.parser_.ParserError as e:
+    except yaml.parser.ParserError as e:
         mark = e.problem_mark
         pos = SourcePosition(mark.line + 1, mark.column + 1, mark.name)
         raise BomError('{}, {}'.format(e.context, e.problem), pos)
