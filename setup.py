@@ -24,7 +24,7 @@ setup(
     package_data={'codebom': ['licenses/*.txt']},
     scripts=['bin/codebom'],
     install_requires=[
-      'ruamel.yaml==0.13.13',
-      'graphviz==0.5.2',
+      'ruamel.yaml~=0.13.13',
+      'graphviz~=0.5.2',
     ]
 )
