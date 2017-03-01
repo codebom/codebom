@@ -179,4 +179,5 @@ def test_coalesce_data(tmpdir):
 
 def test_check_for_licenses(tmpdir):
     assert scan.check_for_licenses(tmpdir.strpath, '.', [], coalesce='none') == []
+    assert scan.check_for_licenses(tmpdir.strpath, '.', ['bogus'], coalesce='none') == []
 
