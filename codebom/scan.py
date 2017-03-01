@@ -73,7 +73,13 @@ def check_for_licenses(root_dir, curr_dir, files, coalesce):
     new_deps = []
     for name in files:
         p = os.path.relpath(os.path.join(curr_dir, name), root_dir)
-        license_id, confidence = identify_license(os.path.join(root_dir, p), license_ids)
+        license_path = os.path.join(root_dir, p)
+
+        # Ignore broken symlinks
+        if not os.path.exists(license_path):
+            continue
+
+        license_id, confidence = identify_license(license_path, license_ids)
         if _license_is_filename(name) or confidence >= _MATCH_THRESHOLD:
             license_id = confidence >= _MATCH_THRESHOLD and license_id or 'Unknown'
             dep = CommentedMap()
