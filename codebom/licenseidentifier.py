@@ -81,9 +81,8 @@ def _make_template_words(id):
     return text.split()
 
 def _make_template_words_map(license_ids):
-    word_map = {id: _make_template_words(id) for id in license_ids if os.path.isfile(_template_path(id))}
-    word_map.update({id + "-header": _make_template_words(id + "-header") for id in license_ids if os.path.isfile(_template_path(id + "-header"))})
-    return word_map
+    ids = license_ids + [id + "-header" for id in license_ids]
+    return {id: _make_template_words(id) for id in ids if os.path.isfile(_template_path(id))}
 
 # A cache mapping a list of license IDs to a dictionary that maps a license ID to the words in its template.
 _template_words_map_map = {}
