@@ -28,6 +28,12 @@ def license_text_to_str(literal):
     return xml_to_str(literal.value.firstChild) + '\n'
 
 def get_license_text(licenseId):
+    return get_license_term(licenseId, "http://spdx.org/rdf/terms#licenseText")
+
+def get_license_header(licenseId):
+    return get_license_term(licenseId, "http://spdx.org/rdf/terms#standardLicenseHeader")
+
+def get_license_term(licenseId, term):
     graph = rdflib.Graph()
 
     try:
@@ -35,7 +41,7 @@ def get_license_text(licenseId):
     except:
         return None
 
-    ref = rdflib.URIRef("http://spdx.org/rdf/terms#licenseText")
+    ref = rdflib.URIRef(term)
     objs = graph.subject_objects(ref)
     return license_text_to_str(objs.next()[1])
 
@@ -49,8 +55,21 @@ def write_licenses_dir(ids):
         text = get_license_text(licenseId)
         if text is None:
             continue
+        
+        write_license_text(licenseDir, licenseId, text)
+        
+        header = get_license_header(licenseId)
+        if header is not None:
+            write_license_header(licenseDir, licenseId, header)
 
-        with open('{}/{}.txt'.format(licenseDir, licenseId), 'w') as hdl:
+def write_license_text(licenseDir, licenseId, text):
+    write_content(licenseDir, licenseId, "", text)
+
+def write_license_header(licenseDir, licenseId, header):
+    write_content(licenseDir, licenseId, "-header", header)
+
+def write_content(licenseDir, licenseId, suffix, text):
+        with open('{}/{}{}.txt'.format(licenseDir, licenseId, suffix), 'w') as hdl:
             hdl.write(text)
 
 with open('codebom/licenses.py', 'w') as out:
