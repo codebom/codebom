@@ -50,6 +50,8 @@ def _identify_license_text(license_words, template_words_map):
 
     def _get_score(id):
         matched_len, templ_len = ngram_matches.get(id)
+        if templ_len == 0:
+            return 0
         # Note: For Python 2.7, either operand must be of type float.
         return matched_len / float(templ_len)
 
@@ -60,6 +62,8 @@ def _identify_license_text(license_words, template_words_map):
         best_id = max(close_matches, key=lambda id: ngram_matches.get(id)[0])
     else:
         best_id = max(ngram_matches, key=_get_score)
+
+    # remove header here...
 
     return best_id, _get_score(best_id)
 
@@ -77,7 +81,9 @@ def _make_template_words(id):
     return text.split()
 
 def _make_template_words_map(license_ids):
-    return {id: _make_template_words(id) for id in license_ids if os.path.isfile(_template_path(id))}
+    word_map = {id: _make_template_words(id) for id in license_ids if os.path.isfile(_template_path(id))}
+    word_map.update({id + "-header": _make_template_words(id + "-header") for id in license_ids if os.path.isfile(_template_path(id + "-header"))})
+    return word_map
 
 # A cache mapping a list of license IDs to a dictionary that maps a license ID to the words in its template.
 _template_words_map_map = {}

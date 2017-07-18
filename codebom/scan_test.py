@@ -47,6 +47,21 @@ def test_scan_bom_missing_license_any_name(tmpdir):
     msg = "Undeclared MIT license file 'foo.txt' in directory '{}'".format(tmpdir.strpath)
     assert scan_bom({'root': tmpdir.strpath}).msg == msg
 
+_apache_2_header_text = """
+Copyright [yyyy] [name of copyright owner]
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+"""
+
+def test_scan_bom_missing_license_header(tmpdir):
+    lic = tmpdir.join('foo.txt')
+    lic.write(_apache_2_header_text)
+    msg = "Undeclared Apache-2.0-header license file 'foo.txt' in directory '{}'".format(tmpdir.strpath)
+    assert scan_bom({'root': tmpdir.strpath}).msg == msg
+
 def test_scan_bom_missing_license_priority(tmpdir):
     # Complain about files with LICENSE in the name before scanning the rest.
     fooLic = tmpdir.join('foo.txt')
