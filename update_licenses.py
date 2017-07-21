@@ -6,6 +6,8 @@ from pprint import pprint
 import os
 import sys
 
+empty_header = "There is no standard license header for the license"
+
 def get_license_ids():
     graph = rdflib.Graph()
     graph.parse('http://spdx.org/licenses/index.html', 'rdfa')
@@ -59,7 +61,7 @@ def write_licenses_dir(ids):
         write_license_text(license_dir, license_id, text)
         
         header = get_license_header(license_id)
-        if header is not None:
+        if header is not None and header.strip() != empty_header:
             write_license_header(license_dir, license_id, header)
 
 def write_license_text(license_dir, license_id, text):
