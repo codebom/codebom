@@ -16,15 +16,17 @@ def get_license_ids():
     return map(lambda x: x[1].value, objs)
 
 def lit_to_str(lit):
-    s = lit.nodeValue.encode('utf-8') if lit.nodeValue else ''
+    s = lit.nodeValue if lit.nodeValue else ''
+        
     return s + xml_to_str(lit)
 
 def xml_to_str(parent):
     return ''.join(lit_to_str(x) for x in parent.childNodes)
 
 def license_text_to_str(literal):
-    if isinstance(literal.value, unicode):
-        return literal.value.encode('utf-8')
+    # Python 3 expect a str object
+    if isinstance(literal.value, str):
+        return literal.value
 
     # Assume the literal contains a list of <p> elements under a top level node.
     return xml_to_str(literal.value.firstChild) + '\n'
@@ -45,7 +47,7 @@ def get_license_term(license_id, term):
 
     ref = rdflib.URIRef(term)
     objs = graph.subject_objects(ref)
-    return license_text_to_str(objs.next()[1])
+    return license_text_to_str(next(objs)[1])
 
 def write_licenses_dir(ids):
     license_dir = 'codebom/licenses'
@@ -75,7 +77,7 @@ def write_content(license_dir, license_id, suffix, text):
             hdl.write(text)
 
 with open('codebom/licenses.py', 'w') as out:
-    ids = get_license_ids()
+    ids = list(get_license_ids())
     ids.sort()
     out.write('license_ids = ')
     pprint(ids, indent=4, stream=out)
