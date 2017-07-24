@@ -50,6 +50,8 @@ def _identify_license_text(license_words, template_words_map):
 
     def _get_score(id):
         matched_len, templ_len = ngram_matches.get(id)
+        # Some templates are entirely optional, i.e. all words are included within '<' and '>'
+        # therefore there are no words in the map and we cannot verify a match
         if templ_len == 0:
             return 0
         # Note: For Python 2.7, either operand must be of type float.
